@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/papayaWhip"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp" />
+
+    <LinearLayout
+        android:id="@+id/habitContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <EditText
+        android:id="@+id/etHabit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter new habit" />
+
+    <Button
+        android:id="@+id/btnAddHabit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/raspberry"
+        android:text="Add Habit" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="8dp" />
+
+</LinearLayout>
