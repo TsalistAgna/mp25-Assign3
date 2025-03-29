@@ -2,9 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/papayaWhip"
+    android:background="#FFFAF1"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="24dp">
 
     <TextView
         android:id="@+id/tvWelcome"
@@ -32,6 +32,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/raspberry"
+        android:padding="16dp"
+        android:layout_marginBottom="4dp"
         android:text="Add Habit" />
 
     <androidx.recyclerview.widget.RecyclerView
